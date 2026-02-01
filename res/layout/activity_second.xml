@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/ImieNazwisko2"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="116dp"
+        android:text="Julian Jakubek"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/drugieActivityBack"
+        android:layout_width="228dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="92dp"
+        android:text="Kliknij przycisk back by wrócić do poprzedniego ekranu"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImieNazwisko2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
